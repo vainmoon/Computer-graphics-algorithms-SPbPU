@@ -1,1 +1,1 @@
-# -Computer-graphics-algorithms-SPbPU
+# Computer-graphics-algorithms-SPbPU
