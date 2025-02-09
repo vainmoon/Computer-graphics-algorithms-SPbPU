@@ -131,3 +131,10 @@ bool Renderer::Resize(UINT width, UINT height) {
 
     return true;
 }
+
+void Renderer::ReleaseDevice() {
+    SAFE_RELEASE(m_pBackBufferRTV);
+    SAFE_RELEASE(m_pSwapChain);
+    SAFE_RELEASE(m_pDeviceContext);
+    SAFE_RELEASE(m_pDevice);
+}
