@@ -53,11 +53,11 @@
     </Image>
   </ItemGroup>
   <ItemGroup>
-    <FxCompile Include="pixel_shader.hlsl">
+    <CopyFileToFolders Include="pixel_shader.hlsl">
       <Filter>Файлы ресурсов</Filter>
-    </FxCompile>
-    <FxCompile Include="vertex_shader.hlsl">
+    </CopyFileToFolders>
+    <CopyFileToFolders Include="vertex_shader.hlsl">
       <Filter>Файлы ресурсов</Filter>
-    </FxCompile>
+    </CopyFileToFolders>
   </ItemGroup>
 </Project>
