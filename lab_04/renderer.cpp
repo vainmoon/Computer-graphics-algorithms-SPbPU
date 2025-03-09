@@ -202,9 +202,9 @@ HRESULT Renderer::InitTextures() {
 	DXGI_FORMAT textureFmt;
 	{
 		const std::wstring TextureNames[6] = {
-			L"skybox_1.dds", L"skybox_2.dds",
-			L"skybox_3.dds", L"skybox_4.dds",
-			L"skybox_down.dds", L"skybox_top.dds"
+			L"skybox_2.dds", L"skybox_4.dds",
+			L"skybox_top.dds", L"skybox_down.dds",
+			L"skybox_1.dds", L"skybox_3.dds"
 		};
 		TextureDesc texDescs[6];
 		bool ddsRes = true;
